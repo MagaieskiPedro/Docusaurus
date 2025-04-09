@@ -1,18 +1,19 @@
 ---
-title: Example Endpoint Token
-description: here is an example of the JSON in the /token URL
+title: Exemplo Rotas Backend
+description: Aqui temos as rotas na aplicação
 ---
-Here the url endpoints will be listed:   
-      [/token](./token)  
-      [/refresh](./refresh)  
-      [/professores](./professores)  
-      [/id/$id](./id/id)  
-      [/prof](./prof)  
-      [/disciplinas](./disciplinas)  
-      [/disciplina/$id](./disciplina/id)  
-      [/ambientes](./ambientes)  
-      [/ambiente/$id](./ambiente/id)  
-      [./turmas](./turmas)  
-      [./turma/$id](./turma/id)  
-      [./cursos](./cursos)  
-      [./curso/$id](./curso/id)  
+Aqui os endpoints das urls são listados:   
+      [admin/](.admin)  
+      [api/token](./token)  
+      [api/refresh](./refresh)  
+      [api/professores](./professores)  
+      [api/id/$id](./id/)  
+      [api/prof](./prof)  
+      [api/disciplinas](./disciplinas)  
+      [api/disciplina/$id](./disciplina)  
+      [api/ambientes](./ambientes)  
+      [api/ambiente/$id](./ambiente)  
+      [api/turmas](./turmas)  
+      [api/turma/$id](./turma)  
+      [api/cursos](./cursos)  
+      [api/curso/$id](./curso)  
