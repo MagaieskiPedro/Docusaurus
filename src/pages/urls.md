@@ -3,7 +3,7 @@ title: Exemplo Rotas Backend
 description: Aqui temos as rotas na aplicação
 ---
 Aqui os endpoints das urls são listados:   
-      [admin/](.admin)  
+      [admin/](./admin)  
       [api/token](./token)  
       [api/refresh](./refresh)  
       [api/professores](./professores)  

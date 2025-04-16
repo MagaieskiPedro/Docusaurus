@@ -2,7 +2,7 @@
 title: Exemplo Endpoint ambientes
 description: Aqui temos um exemplo do JSON na URL /ambientes 
 ---
-# METODOS HTTP: GET,POST,PUT,DELETE
+# METODOS HTTP: GET,POST
 ### Descrição dos campos:
 
 cod é o código do ambiente

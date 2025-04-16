@@ -2,7 +2,7 @@
 title: Exemplo Endpoint cursos
 description: Aqui temos um exemplo do JSON na URL /cursos 
 ---
-# METODOS HTTP: GET,POST,PUT,DELETE
+# METODOS HTTP: GET,POST
 ### Descrição dos campos:
 
 cod é o código do curso

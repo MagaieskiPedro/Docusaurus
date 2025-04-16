@@ -2,7 +2,7 @@
 title: Exemplo Endpoint turmas
 description: Aqui temos um exemplo do JSON na URL /turmas 
 ---
-# METODOS HTTP: GET,POST,PUT,DELETE
+# METODOS HTTP: GET,POST
 ### Descrição dos campos:
 
 cod é o código da turma

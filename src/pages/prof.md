@@ -2,7 +2,7 @@
 title: Exemplo Endpoint Prof
 description: Aqui temos um exemplo do JSON na URL /prof
 ---
-# METODOS HTTP: GET,POST,PUT,DELETE
+# METODOS HTTP: GET,POST
 ### Descrição dos campos:
 
 ni é o numero de identificação do professor
