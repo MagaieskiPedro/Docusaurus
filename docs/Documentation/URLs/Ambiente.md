@@ -1,7 +1,7 @@
 ---
 title: Exemplo Endpoint ambiente
 description: Aqui temos um exemplo do JSON na URL /ambiente/$id
-sidebar_position: 2
+sidebar_position: 3
 ---
 # METODOS HTTP: GET,PUT,DELETE
 ### Descrição dos campos:

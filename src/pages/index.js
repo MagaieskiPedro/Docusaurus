@@ -22,6 +22,12 @@ function HomepageHeader() {
             to="/Docs">
             Documentation - 📝
           </Link>
+        </div> 
+        <div align="center">
+        Nomes: 
+        Pedro Alves Estevam Magaieski,
+        Talita Cristina Alves Lobato,
+        Lucas Henrique Boaratti Silva
         </div>
       </div>
     </header>
@@ -32,7 +38,6 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

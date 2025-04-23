@@ -1,7 +1,7 @@
 ---
 title: Exemplo Endpoint turma
 description: Aqui temos um exemplo do JSON na URL /turma/$id 
-sidebar_position: 13
+sidebar_position: 14
 ---
 # METODOS HTTP: GET,PUT,DELETE
 ### Descrição dos campos:

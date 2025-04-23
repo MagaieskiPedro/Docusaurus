@@ -1,7 +1,7 @@
 ---
 title: Exemplo Endpoint cursos
 description: Aqui temos um exemplo do JSON na URL /cursos 
-sidebar_position: 5
+sidebar_position: 6
 ---
 # METODOS HTTP: GET,POST
 ### Descrição dos campos:

@@ -1,7 +1,7 @@
 ---
 title: Exemplo Endpoint Token
 description: Aqui temos um exemplo do JSON na URL /token 
-sidebar_position: 12
+sidebar_position: 13
 ---
 # METODOS HTTP: POST
 ### Descrição dos campos:

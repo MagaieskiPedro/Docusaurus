@@ -1,7 +1,7 @@
 ---
 title: Exemplo Endpoint Prof
 description: Aqui temos um exemplo do JSON na URL /prof
-sidebar_position: 9
+sidebar_position: 10
 ---
 # METODOS HTTP: GET,POST
 ### Descrição dos campos:

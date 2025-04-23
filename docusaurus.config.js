@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentação',
+  title: '📜 Docucatus 📜',
   tagline: 'Documentação backend escola',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/gatinho.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -22,7 +22,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'magaieskipedro', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -89,7 +89,7 @@ const config = {
             label: 'Documentação',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/magaieskipedro/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,8 +102,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentação',
+                to: '/docs/Documentation/Bem_Vindo',
               },
             ],
           },
@@ -128,12 +128,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/magaieskipedro/docusaurus',
               },
             ],
           },
