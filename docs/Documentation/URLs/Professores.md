@@ -1,6 +1,7 @@
 ---
-title: Exemplo Endpoint Prof
-description: Aqui temos um exemplo do JSON na URL /prof
+title: Exemplo Endpoint Professores
+description: Aqui temos um exemplo do JSON na URL /professores 
+sidebar_position: 10
 ---
 # METODOS HTTP: GET,POST
 ### Descrição dos campos:
@@ -14,7 +15,6 @@ email é o email do professor
 cel é o celular do professor
 
 ocup são as horas de ocupação do professor
-
 ### Exemplo de JSON de entrada
 ```json    
     {

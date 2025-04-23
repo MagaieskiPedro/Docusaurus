@@ -1,6 +1,7 @@
 ---
 title: Exemplo Endpoint Refresh
 description: Aqui temos um exemplo do JSON na URL /refresh 
+sidebar_position: 11
 ---
 # METODOS HTTP: POST
 ### Descrição dos campos:

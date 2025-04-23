@@ -1,6 +1,7 @@
 ---
 title: Exemplo Endpoint id
 description: Aqui temos um exemplo do JSON na URL /id/$id 
+sidebar_position: 8
 ---
 # METODOS HTTP: GET,PUT,DELETE
 ### Descrição dos campos

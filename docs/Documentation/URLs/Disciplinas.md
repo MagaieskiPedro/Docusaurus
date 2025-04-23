@@ -1,8 +1,9 @@
 ---
-title: Exemplo Endpoint disciplina
-description: Aqui temos um exemplo do JSON na URL /disciplina/$id
+title: Exemplo Endpoint disciplinas
+description: Aqui temos um exemplo do JSON na URL /disciplinas 
+sidebar_position: 7
 ---
-# METODOS HTTP: GET,PUT,DELETE
+# METODOS HTTP: GET,POST
 ### Descrição dos campos:
 
 cod é o código da disciplina

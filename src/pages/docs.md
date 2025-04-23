@@ -1,16 +1,17 @@
 # Explicação da API por partes
 
-### urls da aplicação
+### Modelos
+[models/](../docs/Documentation/models) 
+
+### Serializer (conversor para JSON)
+[serializer/](../docs/Documentation/serializers) 
+
+### Configuração geral
+[settings/](../docs/Documentation/settings) 
+
+### Urls da aplicação
 [urls/](./urls) 
 
-### modelos da aplicação
-[models/](./models) 
+### Views (configuração de endpoints disponiveis)
+[views/](../docs/Documentation/views) 
 
-### serializer(conversor para JSON) da aplicação
-[serializer/](./serializer) 
-
-### views(configuração de endpoints disponiveis) da aplicação 
-[views/](./views) 
-
-### configuração geral da aplicação
-[settings/](./settings) 

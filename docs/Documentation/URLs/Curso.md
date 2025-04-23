@@ -1,6 +1,7 @@
 ---
 title: Exemplo Endpoint curso
 description: Aqui temos um exemplo do JSON na URL /curso/$id
+sidebar_position: 4
 ---
 # METODOS HTTP: GET,PUT,DELETE
 ### Descrição dos campos:
