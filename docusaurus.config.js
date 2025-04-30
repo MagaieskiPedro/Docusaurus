@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '📜 Docucatus 📜',
+  title: '📜 Docucats',
   tagline: 'Documentação backend escola',
   favicon: 'img/gatinho.png',
 
@@ -76,9 +76,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/gatinho.png',
       navbar: {
-        title: 'Docucatus',
+        title: 'Docucats',
         logo: {
-          alt: 'Docucatus Logo',
+          alt: 'Docucats Logo',
           src: 'img/gatinho.png',
         },
         items: [
