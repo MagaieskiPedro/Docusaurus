@@ -4,6 +4,7 @@ description: Aqui temos um exemplo do JSON na URL /id/$id
 sidebar_position: 9
 ---
 # METODOS HTTP: GET,PUT,DELETE
+#### /api/id/$id
 ### Descrição dos campos
 id é o identificador unico do professor, utilizado no final da url para procurar,editar ou deletar especificamente os dados relativos aquele professor
 

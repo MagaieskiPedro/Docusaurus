@@ -1,3 +1,5 @@
+após criar um app no django, crie um arquivo serializer.py
+então coloque código abaixo no arquivo serializer.py
 ## Serializer de Ambiente
 * classe definida como serializer recebe o modelo Ambiente e converte todos os campos para JSON
 ``` python

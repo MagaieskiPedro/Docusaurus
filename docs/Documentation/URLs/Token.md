@@ -4,6 +4,7 @@ description: Aqui temos um exemplo do JSON na URL /token
 sidebar_position: 13
 ---
 # METODOS HTTP: POST
+#### /api/token
 ### Descrição dos campos:
 
 username é o nome de usuario

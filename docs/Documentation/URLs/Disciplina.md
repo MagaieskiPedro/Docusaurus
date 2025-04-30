@@ -4,6 +4,7 @@ description: Aqui temos um exemplo do JSON na URL /disciplina/$id
 sidebar_position: 7
 ---
 # METODOS HTTP: GET,PUT,DELETE
+#### /api/disciplina/$id
 ### Descrição dos campos:
 
 cod é o código da disciplina

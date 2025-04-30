@@ -4,6 +4,7 @@ description: Aqui temos um exemplo do JSON na URL /refresh
 sidebar_position: 12
 ---
 # METODOS HTTP: POST
+#### /api/refresh
 ### Descrição dos campos:
 refresh é o campo que recebe o token refresh gerado na rota [api/token](./token)
 access é um novo access token gerado para manter o usuario logado 

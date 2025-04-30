@@ -4,6 +4,7 @@ description: Aqui temos um exemplo do JSON na URL /ambiente/$id
 sidebar_position: 3
 ---
 # METODOS HTTP: GET,PUT,DELETE
+#### /api/ambiente/$id
 ### Descrição dos campos:
 
 cod é o código do ambiente

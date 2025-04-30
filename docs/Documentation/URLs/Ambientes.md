@@ -4,6 +4,7 @@ description: Aqui temos um exemplo do JSON na URL /ambientes
 sidebar_position: 4
 ---
 # METODOS HTTP: GET,POST
+#### /api/ambientes
 ### Descrição dos campos:
 
 cod é o código do ambiente

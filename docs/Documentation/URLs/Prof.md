@@ -4,6 +4,7 @@ description: Aqui temos um exemplo do JSON na URL /prof
 sidebar_position: 10
 ---
 # METODOS HTTP: GET,POST
+#### /api/prof
 ### Descrição dos campos:
 
 ni é o numero de identificação do professor

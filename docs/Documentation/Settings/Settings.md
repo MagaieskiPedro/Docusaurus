@@ -1,3 +1,4 @@
+o código abaixo deve ser inserido no arquivo settings.py
 ## Alterações no arquivo settings.py gerado automaticamente
 1. adicionadas bibliotecas e aplicativo
 ``` python

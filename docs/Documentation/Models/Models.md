@@ -1,3 +1,4 @@
+o código abaixo deve ser inserido no arquivo models.py
 ## Modelo Ambiente
 ``` python
 class Ambiente(models.Model):

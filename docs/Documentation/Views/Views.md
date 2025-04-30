@@ -1,3 +1,4 @@
+o código abaixo deve ser inserido no arquivo views.py
 ## Views de Ambiente 
  ``` python
 class AmbientesView(ListCreateAPIView):
@@ -10,7 +11,18 @@ class AmbienteDetailView(RetrieveUpdateDestroyAPIView):
     serializer_class = AmbienteSerializer
     permission_classes = [IsAuthenticated]
 ```
+[ListCreateAPIView] é um parametro que a classe recebe que informa que ela pode receber os metodos HTTP GET e POST, GET que permite
+que sejam consultados todos os itens do modelo informado, POST que permite que seja criado um novo item seguindo o modelo informado
 
+[RetrieveUpdateDestroyAPIView] é um parametro que a classe recebe que informa que ela pode receber os metodos HTTP GET(por id), PUT e DELETE
+GET que permite que seja consultado um item especifico pelo numero id, PUT permite que seja alterado o item do id informado, DELETE que apaga o item do id informado
+
+[queryset] recebe todos os objetos contidos em um modelo referido (nesse caso Ambiente), e aplica sobre  os metodos http daquela classe
+
+[serializer_class] recebe a classe que irá serializar os dados do modelo em queryset (nesse caso AmbienteSerializer)
+
+[permission_classes] informa se para acessar aquela classe é preciso estar ou não autenticado(IsAuthenticade significa que nesse caso sim)
+e em casos mais avançados, quais permissões serão necessarias
 
 
 ## Views de Cadastro
@@ -31,7 +43,9 @@ def listar_professores(request):
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 ```
-* Cabeçalho:
+### Explicação do código acima
+
+* Cabeçalho / Annotations / Generics :
 ``` python
 @api_view(['GET', 'POST'])
 ``` 
@@ -74,8 +88,17 @@ def buscar_nome_professor(request):
     serializer = CadastroSerializer(professores, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
 ```
+### Explicação do código acima
+``` python
+if termo:
+    professores = Cadastro.objects.filter(nome_incontains = termo)
+else:
+    professores = Cadastro.objects.all()
+```
+se houver um nome de professor(termo) pesquisado na url, o objeto que será chamado vai ser apenas o professor especificado
+se não houver um nome de professor(termo) pesquisado na url, retorna todos os professores  
 
-3. cadasto usando classes com view
+3. cadastro usando classes com view
 ``` python
 class ProfessoresView(ListCreateAPIView):
     queryset = Cadastro.objects.all()
@@ -94,6 +117,14 @@ class ProfessoresSearchView(ListAPIView):
     filter_backends = [DjangoFilterBackend, SearchFilter]
     search_fields = ['nome']
 ```
+### Explicação do código acima
+``` python
+    filter_backends = [DjangoFilterBackend, SearchFilter]
+    search_fields = ['nome']
+```
+filter_backends cria um filtro de busca, SearchField realiza uma busca por um campo e DjangoFilterBackend filtra a consulta com o campo informado para pesquisa
+search_fields informa o campo do modelo que será usado para pesquisa (nesse caso nome)
+
 ## Views de Curso
 ``` python
 class CursosView(ListCreateAPIView):

@@ -4,6 +4,7 @@ description: Aqui temos um exemplo do JSON na URL /disciplinas
 sidebar_position: 8
 ---
 # METODOS HTTP: GET,POST
+#### /api/disciplinas
 ### Descrição dos campos:
 
 cod é o código da disciplina
